@@ -1,0 +1,13 @@
+{
+  "name": "pam_sequence_detector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --watch --respawn ./src/index.ts"
+  }
+}
